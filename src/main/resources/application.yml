@@ -4,7 +4,7 @@ spring:
   application:
     name: SPRING_SECURITY_DB
   datasource:
-    driver-class-name: 
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/sbsecurity
     username: root
     password: myadmin
